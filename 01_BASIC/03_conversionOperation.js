@@ -13,12 +13,16 @@ console.log(ValueInNumber);
 //  true => 1; false => 0
 
 let IsLoggedIn = 1 ;
-let booleanIsLoggedIn = Boolean(IsLoggedIn);
+let booleanIsLoggedIn = Boolean(IsLoggedIn);//Convert into boolean value(True or false)
+console.log(booleanIsLoggedIn);
 
 //1 => true
 //0 => false
 // "" => false
 // "Roshan" => true
+let SomeNumber = 45
 
-let StringNumber = String(StringNumber)
-console.log(StringNumber)
+let StringNumber = String(SomeNumber);//45 => "45"
+console.log(StringNumber);
+console.log(typeof StringNumber);
+
