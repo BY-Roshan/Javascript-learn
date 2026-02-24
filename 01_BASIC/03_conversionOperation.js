@@ -69,3 +69,54 @@ console.log(1 + "2");//12
 console.log("1" + "2");//12
 console.log("1" + 2 + 2);//122
 console.log(1 + 2 + "2");//32
+
+console.log("1" - 2);//-1
+console.log(1 - "2");//-1.. Why it output is -1 because when we use - operator it convert string into number and then perform operation
+console.log("1" - "2");//-1
+console.log("1" - 2 + 2);//1
+console.log(1 - "2" + 2);//1
+
+console.log(3 + 3 * 4 / 12);//Do not write like this because it is difficult to undarstand
+console.log((3 + 3) * 4 / 12);//Write like this because it is easy to understand
+
+
+console.log(true);//true
+console.log(+true);//1
+
+console.log("");//output is "" ""(space)
+console.log(+"");//0
+
+/*
+let num1, num2, num3 = 3
+console.log(num1);//undefined
+*/
+
+let num1 = 1, num2 = 4, num3 = 3
+console.log(num1, num2, num3);
+
+let a, b, c ;
+a = b = c = 4 //bad way for a good devloper 
+console.log(a, b, c);
+
+let GameCounter = 100
+GameCounter++;//GameCounter = GameCounter + 1 AND ++GameCounter is also same
+console.log(GameCounter);
+/*
+//Postfix increment
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+// x2 is 4n; y2 is 3n
+
+//Prefix increment
+let x = 3;
+const y = ++x;
+// x is 4; y is 4
+
+let x2 = 3n;
+const y2 = ++x2;
+// x2 is 4n; y2 is 4n
+*/
